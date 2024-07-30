@@ -1,0 +1,11 @@
+form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  line-height: 1.5;
+  width: 100%;
+}
