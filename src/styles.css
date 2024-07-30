@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #ff495d;
+  border: solid 1px #ff495d;
+  color: white;
+  padding: 0 0.75em;
+  transition: background-color 0.125s ease-in, border-color 0.125s ease-in,
+    color 0.125s ease-in;
+}
+
+ul {
+  list-style: none;
+  margin: 1em 0 0;
+  padding: 0;
+}
+
+app-layout ul {
+  margin-top: 0;
+}
+
+li {
+  background-color: #eee;
+  margin-bottom: 0.25em;
+  padding: 1em;
+}
