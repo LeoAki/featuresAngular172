@@ -4,7 +4,9 @@ import { Component, input, model } from '@angular/core';
   selector: 'app-signal-model',
   standalone: true,
   imports: [],
-  template: '1. Model Signal <br><div (click)="toggle()"> Cambiaré el valor de la propiedad del componente.</div>',
+  template: `1. Model Signal
+            <br>
+            <div (click)="toggle()"> Hazme click y cambiaré el valor de la propiedad del componente.</div>`,
   styleUrl: './signal-model.component.css'
 })
 export class SignalModelComponent {

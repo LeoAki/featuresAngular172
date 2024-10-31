@@ -23,7 +23,7 @@ export class QueryViewComponent implements OnInit{
   searchElemento = viewChild<ElementRef>('searchField');
 
   ngOnInit(): void {
-    console.log('elemento::',this.divElemento()?.nativeElement.innerHTML);
+    console.log('==> elemento::',this.divElemento()?.nativeElement.innerHTML);
     this.searchElemento()?.nativeElement.focus();
   }
 

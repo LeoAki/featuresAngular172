@@ -1,15 +1,18 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { SignalModelComponent } from './model-signal/signal-model/signal-model.component';
-import { QueryViewComponent } from './signal-query/query-view/query-view.component';
-import { SearchModule } from './signal-query/query-content/search/search.module';
 import { NgOptimizedImage, provideImgixLoader } from '@angular/common';
+import { SignalModelComponent } from './feature/angular/model-signal/signal-model/signal-model.component';
+import { QueryViewComponent } from './feature/angular/signal-query/query-view/query-view.component';
+import { SearchModule } from './feature/angular/signal-query/query-content/search/search.module';
 
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [
-    RouterOutlet, SignalModelComponent, QueryViewComponent, SearchModule,
+    RouterOutlet,
+    SignalModelComponent,
+    QueryViewComponent,
+    SearchModule,
     NgOptimizedImage
   ],
   templateUrl: './app.component.html',

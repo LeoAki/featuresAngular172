@@ -12,7 +12,7 @@ export class SearchComponent {
   constructor() {
     effect(() => {
       this.searchForm().searchField().nativeElement.focus();
-      this.searchForm().searchField().nativeElement.value = 'texto por defecto';
+      this.searchForm().searchField().nativeElement.value = 'texto por defecto de parte de Leo';
     });
   }
 }
